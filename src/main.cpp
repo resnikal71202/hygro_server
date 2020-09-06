@@ -1,9 +1,17 @@
 #include <Arduino.h>
+#include "display.h"
+#include "hid.h"
+#include "rh_master.h"
+
+
 
 void setup() {
-  // put your setup code here, to run once:
+  oled_setup();
+  rh_master_setup();
+  io_setup();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  rh_master_handle();
+  oled_handle();
 }
