@@ -7,3 +7,4 @@ The data can be found here:
 * https://github.com/adafruit/RadioHead
 * https://github.com/greiman/SSD1306Ascii
 ## to-do list:
+* add software timer
