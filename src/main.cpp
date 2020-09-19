@@ -3,8 +3,6 @@
 #include "hid.h"
 #include "rh_master.h"
 
-
-
 void setup() {
   oled_setup();
   rh_master_setup();
